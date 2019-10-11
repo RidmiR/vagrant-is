@@ -22,8 +22,7 @@ WSO2_SERVER_VERSION=5.8.0
 WSO2_SERVER_PACK=${WSO2_SERVER}-${WSO2_SERVER_VERSION}*.zip
 MYSQL_CONNECTOR=mysql-connector-java-*.jar
 JDK_ARCHIVE=jdk-8u*-linux-x64.tar.gz
-#WORKING_DIRECTORY=/home/vagrant
-WORKING_DIRECTORY=/opt/vagrant
+WORKING_DIRECTORY=/home/vagrant
 JAVA_HOME=/opt/java/
 CONFIGURATIONS=${WORKING_DIRECTORY}/identity-server-analytics-worker/confs
 
